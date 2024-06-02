@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/zaloguj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejestracja"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140sp"
+        android:textColor="@color/grey"
+        />
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="Login"
+        android:id="@+id/login"
+        android:layout_width="300sp"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/zaloguj"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="Hasło"
+        android:id="@+id/haslo"
+        android:layout_width="300sp"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/rejB"
+        android:layout_width="290dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/haslo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Zarejestruj się" />
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/back"
+        android:layout_width="221dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/rejB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Powrót" />
+
+</RelativeLayout>

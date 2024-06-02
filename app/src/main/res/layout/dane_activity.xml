@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię:"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_name"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/label_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwisko:"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_name"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_surname"
+        android:layout_marginTop="5dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/label_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres:"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_surname"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_address"
+        android:layout_marginTop="5dp"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres email:"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_address"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_email"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress" />
+
+
+
+    <TextView
+        android:id="@+id/label_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kwota końcowa:"
+        android:textSize="18sp"
+        android:layout_below="@id/edit_email"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/label_total_price"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/buy_now_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kup teraz"
+        android:layout_below="@id/total_price"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

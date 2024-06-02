@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_author"
+        android:title="O autorze"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_udos"
+        android:title="Udostępnij"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_send_SMS"
+        android:title="Wyślij SMSa"
+        app:showAsAction="never"/>
+</menu>
+
